@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
-    "built": "webpack --mode=development",
+    "built:dev": "webpack --mode=development --devtool=cheap-module-eval-source-map",
+    "built:prod": "webpack --mode=production --devtool=source-map",
     "dev-server": "webpack-dev-server",
     "test": "jest"
   },
@@ -18,17 +19,11 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "css-loader": "4.2.0",
-    "jest": "20.0.4",
     "live-server": "^1.2.1",
-    "moment": "2.18.1",
     "node-sass": "4.14.1",
     "normalize.css": "^8.0.1",
-    "react": "16.13.1",
-    "react-addons-shallow-compare": "15.6.0",
-    "react-dates": "12.3.0",
     "react-dom": "16.13.1",
     "react-modal": "^3.11.2",
-    "react-redux": "^7.2.1",
     "react-router-dom": "5.2.0",
     "redux": "^4.0.5",
     "sass-loader": "^9.0.2",
@@ -44,6 +39,12 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "jest": "^20.0.4",
+    "moment": "^2.18.1",
+    "react": "^16.13.1",
+    "react-addons-shallow-compare": "^15.6.0",
+    "react-dates": "^12.3.0",
+    "react-redux": "^7.2.1",
     "webpack-cli": "^3.3.12"
   }
 }
