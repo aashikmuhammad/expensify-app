@@ -10,7 +10,8 @@
     "built:prod": "webpack --mode=production --devtool=source-map",
     "dev-server": "webpack-dev-server",
     "test": "jest",
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "heroku-postbuild":"yarn run built:prod"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
