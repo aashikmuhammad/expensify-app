@@ -9,7 +9,6 @@
     "built:dev": "webpack --mode=development --devtool=cheap-module-eval-source-map",
     "built:prod": "webpack --mode=production --devtool=source-map",
     "dev-server": "webpack-dev-server",
-    "test": "jest",
     "start": "node server/server.js",
     "heroku-postbuild": "npm run built:prod"
   },
