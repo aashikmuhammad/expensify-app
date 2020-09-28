@@ -1,0 +1,20 @@
+@import '../base/base';
+@import '../base/settings';
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: $l-size;
+
+  @media (max-width: $desktop-breakpoint) {
+    flex-direction: column;
+  }
+}
+
+.input-group__item {
+  margin-left: $s-size;
+  
+  @media (max-width: $desktop-breakpoint) {
+    margin-bottom: $s-size;
+  }
+}

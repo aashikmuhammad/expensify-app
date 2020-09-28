@@ -1,0 +1,25 @@
+@import '../base/base';
+@import '../base/settings';
+
+.button {
+  background: $blue;
+  border: none;
+  color: white;
+  font-weight: 300;
+  font-size: 2rem;
+  padding: $s-size;
+  margin-top: $m-size;
+  line-height: 1;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button--link {
+  background: none;
+  margin-top: 0;
+}
+
+.button--secondary {
+  @extend .button;
+  background: #888888;
+}
