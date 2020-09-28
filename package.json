@@ -11,7 +11,7 @@
     "built-prod": "webpack --mode=production --devtool=source-map",
     "dev-server": "webpack-dev-server",
     "start": "node server/server.js",
-    "heroku-postbuild": "npm run built:prod"
+    "heroku-postbuild": "npm run built-prod"
   },
   "dependencies": {
     "@babel/polyfill": "^7.11.5",
