@@ -2,7 +2,8 @@
   "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Aashiq.",
+  "homepage": "https://aashiq-expensify-app.herokuapp.com/",
+  "author": "Aashiq",
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
