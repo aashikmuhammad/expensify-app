@@ -13,6 +13,7 @@
     "heroku-postbuild": "npm run built:prod"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.11.5",
     "@firebase/analytics": "^0.4.2",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -50,7 +51,7 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "jest": "^20.0.4",
+    "jest": "^26.4.2",
     "mini-css-extract-plugin": "^0.10.0",
     "moment": "^2.27.0",
     "react": "^16.13.1",

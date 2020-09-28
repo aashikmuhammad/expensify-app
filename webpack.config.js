@@ -16,7 +16,7 @@ module.exports = {
         filename: 'styles.css',
         ignoreOrder: false      
     })],
-    entry: ['babel-polyfill', './src/app.js'],
+    entry: ['@babel/polyfill', './src/app.js'],
     output: {
         path: path.join(__dirname, 'public', 'dist'),
         filename: 'bundle.js'
