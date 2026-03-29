@@ -43,7 +43,7 @@
     "thunk": "0.0.1",
     "url-loader": "^4.1.0",
     "uuid": "^8.3.0",
-    "validator": "13.1.1",
+    "validator": "13.15.22",
     "webpack": "^4.44.1",
     "webpack-dev-server": "^3.11.0"
   },
